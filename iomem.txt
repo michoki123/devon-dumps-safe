@@ -1,0 +1,75 @@
+003ed000-003fb007 : cx_ipeak@3ed000
+00400000-00ffffff : pinctrl@400000
+01400000-015effff : cc_base
+01600000-01600083 : refgen-regulator@1600000
+01610000-01611fff : eud_base
+01612000-01612003 : eud_enable_reg
+01613000-0161310f : hsusb_phy_base
+01b40000-01b46fff : qfprom@1b40000
+01c0a000-01c2ffff : cnfg
+01c40000-01c410ff : core
+01e00000-03dfffff : chnls
+03e00000-03efffff : obsrvr
+03f00000-03f9ffff : intr
+0440b000-0440b003 : pshold-base
+04410000-04410007 : tsens_srot_physical
+04411000-044111fe : tsens_tm_physical
+04784000-04784fff : hc_mem
+04804000-04806fff : ufs_mem
+04807000-04807dff : phy_mem
+04810000-04817fff : ufs_ice
+04a84000-04a87fff : i2c@4a84000
+04a88000-04a8bfff : i2c@4a88000
+04ac0000-04ac1fff : qcom,qupv3_0_geni_se@4ac0000
+04e0c100-04e0dfff : dwc3@4e00000
+05900000-0598ffff : kgsl-3d0
+05990000-05998fff : cc_base
+059a0000-059affff : base
+059c2200-059c2207 : status-reg
+059c5000-059c5fff : base
+05f00000-05f1ffff : cc_base
+0c600000-0c67ffff : base
+0c782200-0c782207 : status-reg
+0c782208-0c78220f : status-reg
+0c782210-0c782217 : status-reg
+0c782218-0c78221f : status-reg
+0c785000-0c785fff : base
+0c789000-0c789fff : base
+0c78d000-0c78dfff : base
+0c791000-0c791fff : base
+0f011000-0f011fff : cluster1@f011000
+0f017000-0f017fff : msm-watchdog
+0f111000-0f111fff : cluster0@f111000
+0f121000-0f121fff : arch_mem_timer
+0f521000-0f521fff : freq-domain0
+0f523000-0f523fff : freq-domain1
+40000000-456fffff : System RAM
+  40080000-4209ffff : Kernel code
+  420a0000-4219ffff : reserved
+  421a0000-42596fff : Kernel data
+  441e6000-44244fff : reserved
+  443e7000-456fefff : reserved
+45d00000-45dfffff : System RAM
+45f40000-45ffefff : System RAM
+48000000-4aafffff : System RAM
+55617000-5fffffff : System RAM
+  5c000000-5cffffff : reserved
+63900000-7cbfffff : System RAM
+80000000-aef9cfff : System RAM
+af000000-af03f7ff : persistent_ram
+af03f800-af07f7ff : persistent_ram
+af07f800-af0bf7ff : persistent_ram
+af0c0000-1bf8aefff : System RAM
+  f3c00000-ffbfffff : reserved
+  1b7c00000-1b89fffff : reserved
+  1b8aa0000-1be9fffff : reserved
+  1bea4c000-1beacbfff : reserved
+  1beacc000-1beaccfff : reserved
+  1beacd000-1beb9cfff : reserved
+  1beb9f000-1beb9ffff : reserved
+  1beba0000-1beba0fff : reserved
+  1beba1000-1beba1fff : reserved
+  1beba2000-1beba4fff : reserved
+  1beba5000-1bf8aefff : reserved
+1bf8af000-1bfffffff : reserved
+  1bf8af000-1bfffffff : reserved
